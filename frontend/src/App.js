@@ -5,8 +5,12 @@ import {Container} from "react-bootstrap";
 const App = () => {
     return (
         <>
-            <h1> El Camiinrod</h1>
             <Header />
+            <main>
+                <Container>
+                <h1>Testing</h1>
+                </Container>
+            </main>
             <Footer />
         </>
 
